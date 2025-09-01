@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+./examples/generate_data_card.py
+./tsq/data_card.py
+tsq.egg-info/PKG-INFO
+tsq.egg-info/SOURCES.txt
+tsq.egg-info/dependency_links.txt
+tsq.egg-info/requires.txt
+tsq.egg-info/top_level.txt

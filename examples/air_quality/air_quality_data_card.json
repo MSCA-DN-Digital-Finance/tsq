@@ -1,0 +1,188 @@
+{
+  "dataset_name": "Air Quality Milan Station",
+  "overview": {
+    "n_observations": 46761,
+    "n_entities": 1,
+    "n_variables": 13,
+    "time_range": [
+      "2004-01-04 00:00:00",
+      "2005-12-03 23:00:00"
+    ],
+    "inferred_frequency": null
+  },
+  "data_quality": {
+    "missing_values": 6870,
+    "duplicates": 0,
+    "timestamps_monotonic": true
+  },
+  "variables": {
+    "AH": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 0.1847,
+      "max": 2.231
+    },
+    "C6H6(GT)": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 0.2,
+      "max": 48.2
+    },
+    "CO(GT)": {
+      "n_observations": 3597,
+      "n_missing": 584,
+      "min": 0.1,
+      "max": 9.4
+    },
+    "NMHC(GT)": {
+      "n_observations": 3597,
+      "n_missing": 3303,
+      "min": 7.0,
+      "max": 1084.0
+    },
+    "NO2(GT)": {
+      "n_observations": 3597,
+      "n_missing": 687,
+      "min": 5.0,
+      "max": 340.0
+    },
+    "NOx(GT)": {
+      "n_observations": 3597,
+      "n_missing": 685,
+      "min": 2.0,
+      "max": 1247.0
+    },
+    "PT08.S1(CO)": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 689.0,
+      "max": 1915.0
+    },
+    "PT08.S2(NMHC)": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 387.0,
+      "max": 1935.0
+    },
+    "PT08.S3(NOx)": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 328.0,
+      "max": 2683.0
+    },
+    "PT08.S4(NO2)": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 551.0,
+      "max": 2746.0
+    },
+    "PT08.S5(O3)": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 221.0,
+      "max": 2519.0
+    },
+    "RH": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": 9.6,
+      "max": 88.7
+    },
+    "T": {
+      "n_observations": 3597,
+      "n_missing": 179,
+      "min": -1.9,
+      "max": 42.6
+    }
+  },
+  "entities": {
+    "Milan_Station": {
+      "n_observations": 46761,
+      "n_variables": 13,
+      "time_range": [
+        "2004-01-04 00:00:00",
+        "2005-12-03 23:00:00"
+      ],
+      "variables": {
+        "AH": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 0.1847,
+          "max": 2.231
+        },
+        "C6H6(GT)": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 0.2,
+          "max": 48.2
+        },
+        "CO(GT)": {
+          "n_observations": 3597,
+          "n_missing": 584,
+          "min": 0.1,
+          "max": 9.4
+        },
+        "NMHC(GT)": {
+          "n_observations": 3597,
+          "n_missing": 3303,
+          "min": 7.0,
+          "max": 1084.0
+        },
+        "NO2(GT)": {
+          "n_observations": 3597,
+          "n_missing": 687,
+          "min": 5.0,
+          "max": 340.0
+        },
+        "NOx(GT)": {
+          "n_observations": 3597,
+          "n_missing": 685,
+          "min": 2.0,
+          "max": 1247.0
+        },
+        "PT08.S1(CO)": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 689.0,
+          "max": 1915.0
+        },
+        "PT08.S2(NMHC)": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 387.0,
+          "max": 1935.0
+        },
+        "PT08.S3(NOx)": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 328.0,
+          "max": 2683.0
+        },
+        "PT08.S4(NO2)": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 551.0,
+          "max": 2746.0
+        },
+        "PT08.S5(O3)": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 221.0,
+          "max": 2519.0
+        },
+        "RH": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": 9.6,
+          "max": 88.7
+        },
+        "T": {
+          "n_observations": 3597,
+          "n_missing": 179,
+          "min": -1.9,
+          "max": 42.6
+        }
+      }
+    }
+  }
+}

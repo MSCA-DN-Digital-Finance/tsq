@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>[&#x27;AAPL&#x27;, &#x27;MSFT&#x27;, &#x27;GOOGL&#x27;] OHLC — Data Card</title>
+<style>
+body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; color:#222; }
+h1 { margin-bottom: 0.25rem; }
+h2 { margin-top: 2rem; }
+h3 { margin-top: 1.25rem; }
+.small { color:#666; font-size:0.9rem; }
+.card { border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin:12px 0; background:#fafafa; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid #eee; text-align: left; padding: 8px 6px; }
+th { background:#f3f4f6; position: sticky; top: 0; }
+.kv { display:grid; grid-template-columns: 240px 1fr; gap:8px 16px; }
+.badge { display:inline-block; padding:2px 8px; border-radius:999px; background:#eef2ff; font-size:0.85rem; }
+.entity-block { margin-top: 16px; }
+</style></head>
+<body>
+
+<h1>Data Card</h1>
+<div class="small">[&#x27;AAPL&#x27;, &#x27;MSFT&#x27;, &#x27;GOOGL&#x27;] OHLC</div>
+
+<div class="card">
+  <h2>Overview</h2>
+  <div class="kv">
+    <div>Observations</div><div>3780</div>
+    <div>Entities</div><div>3</div>
+    <div>Variables</div><div>5</div>
+    <div>Time range</div><div>2020-01-02 00:00:00 — 2020-12-30 00:00:00</div>
+    <div>Inferred frequency</div><div><span class="badge">—</span></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Data Quality</h2>
+  <div class="kv">
+    <div>Missing values</div><div>0</div>
+    <div>Duplicates</div><div>0</div>
+    <div>Timestamps monotonic per entity</div><div>✅</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Variables (All Entities)</h2>
+  <table>
+    <thead><tr><th>Variable</th><th>Obs</th><th>Missing</th><th>Min</th><th>Max</th></tr></thead>
+    <tbody>
+<tr><td>Close</td><td>756</td><td>0</td><td>52.39228439331055</td><td>222.11190795898438</td></tr>
+<tr><td>High</td><td>756</td><td>0</td><td>53.02747485160064</td><td>223.2720931821289</td></tr>
+<tr><td>Low</td><td>756</td><td>0</td><td>50.1427750747484</td><td>217.9889702596058</td></tr>
+<tr><td>Open</td><td>756</td><td>0</td><td>52.503616205473385</td><td>219.82989336183493</td></tr>
+<tr><td>Volume</td><td>756</td><td>0</td><td>9312000.0</td><td>426510000.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h2>Per-Entity Variable Stats</h2>
+
+  <div class="entity-block">
+    <h3>Entity: AAPL</h3>
+    <div class="kv">
+      <div>Entity observations</div><div>1260</div>
+      <div>Entity variables</div><div>5</div>
+      <div>Entity time range</div><div>2020-01-02 00:00:00 — 2020-12-30 00:00:00</div>
+    </div>
+    <table>
+      <thead><tr><th>Variable</th><th>Obs</th><th>Missing</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody>
+<tr><td>Close</td><td>252</td><td>0</td><td>54.31694412231445</td><td>133.190185546875</td></tr>
+<tr><td>High</td><td>252</td><td>0</td><td>55.316762499666766</td><td>135.23642465149393</td></tr>
+<tr><td>Low</td><td>252</td><td>0</td><td>51.47000835368413</td><td>130.90036509315357</td></tr>
+<tr><td>Open</td><td>252</td><td>0</td><td>55.21508661799568</td><td>134.51538107187807</td></tr>
+<tr><td>Volume</td><td>252</td><td>0</td><td>46691300.0</td><td>426510000.0</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="entity-block">
+    <h3>Entity: GOOGL</h3>
+    <div class="kv">
+      <div>Entity observations</div><div>1260</div>
+      <div>Entity variables</div><div>5</div>
+      <div>Entity time range</div><div>2020-01-02 00:00:00 — 2020-12-30 00:00:00</div>
+    </div>
+    <table>
+      <thead><tr><th>Variable</th><th>Obs</th><th>Missing</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody>
+<tr><td>Close</td><td>252</td><td>0</td><td>52.39228439331055</td><td>90.70450592041016</td></tr>
+<tr><td>High</td><td>252</td><td>0</td><td>53.02747485160064</td><td>91.64189039742604</td></tr>
+<tr><td>Low</td><td>252</td><td>0</td><td>50.1427750747484</td><td>90.30838853043117</td></tr>
+<tr><td>Open</td><td>252</td><td>0</td><td>52.503616205473385</td><td>90.48433527145409</td></tr>
+<tr><td>Volume</td><td>252</td><td>0</td><td>9312000.0</td><td>108358000.0</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="entity-block">
+    <h3>Entity: MSFT</h3>
+    <div class="kv">
+      <div>Entity observations</div><div>1260</div>
+      <div>Entity variables</div><div>5</div>
+      <div>Entity time range</div><div>2020-01-02 00:00:00 — 2020-12-30 00:00:00</div>
+    </div>
+    <table>
+      <thead><tr><th>Variable</th><th>Obs</th><th>Missing</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody>
+<tr><td>Close</td><td>252</td><td>0</td><td>129.17127990722656</td><td>222.11190795898438</td></tr>
+<tr><td>High</td><td>252</td><td>0</td><td>134.08362658703234</td><td>223.2720931821289</td></tr>
+<tr><td>Low</td><td>252</td><td>0</td><td>126.40507819849284</td><td>217.9889702596058</td></tr>
+<tr><td>Open</td><td>252</td><td>0</td><td>130.68788493248408</td><td>219.82989336183493</td></tr>
+<tr><td>Volume</td><td>252</td><td>0</td><td>10550600.0</td><td>97012700.0</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="small">Generated by TSQ (Time Series Quality) • Extend with finance-specific checks.</div>
+</body></html>
