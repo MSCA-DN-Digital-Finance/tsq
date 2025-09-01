@@ -75,7 +75,8 @@ This package can be applied across domains. Two example workflows are included:
 
 Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them.
 
-![EU Logo](images\eu_funded logo.jpg)
+![EU Logo](images/eu_funded_logo.jpg)
+
 
 ## License
 
